@@ -1,3 +1,5 @@
+language: csharp
+solution: AppBackend1.sln
 deploy:
   provider: azure_web_apps
   username: azure_deployment_user       # If AZURE_WA_USERNAME isn't set
